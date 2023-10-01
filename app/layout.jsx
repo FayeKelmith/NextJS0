@@ -1,5 +1,6 @@
-import "@sytles/global.css";
-import { Children } from "react";
+import "@styles/global.css";
+import Nav from "@components/Nav";
+import Provider from "@components/Provider";
 
 export const metadata = {
   title: "Keltopia",
@@ -11,7 +12,11 @@ const RootLayout = ({ children }) => {
       <div className="main">
         <div className="gradient"></div>
       </div>
-      <main className="app">{Children}</main>
+
+      <main className="app">
+        <Nav />
+        {children}
+      </main>
     </html>
   );
 };
