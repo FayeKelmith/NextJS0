@@ -5,13 +5,16 @@ const Home = () => {
     <section className="w-full flex-center flex-col">
       <h1 className="head_text text-center">
         {" "}
-        Copy & Learn
+        Code & Learn
         <br className="max-md:hidden" />
-        <span className="orange_gradient text-center"> Copied Code</span>
+        <span className="orange_gradient text-center">
+          {" "}
+          Surge Force on Speed
+        </span>
       </h1>
       <p className="desc text-center">
         Keltopia is a copied website from JavaScript Mastery to learn how to
-        build fullstack sites with nextJS.
+        build fullstack sites with nextJS. NextJS is incredible!
       </p>
       <Feed />
     </section>
